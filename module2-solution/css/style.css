@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+section {
+    float: left;
+    width: 32%;
+    margin-left: 13px;
+    padding-left: 10px;
+    border: solid 1px black;
+}
+.rose {
+    background-image: url("https://www.pexels.com/photo/white-petaled-flowers-1122626/");
+}
+
+.sunflower {
+    background-image: url("www.pexels.com/photo/sunflowers-growing-in-field-in-sunny-day-5018196");
+}
+
+.daisies {
+    background-image: url("www.pexels.com/photo/selective-focus-of-white-daisy-flower-1196445");
+}
+
+
+@media (min-width:992px) {
+    
+}
+
+@media (max-width:991px) and (min-width:768px) {
+
+}
+
+@media (max-width:767px) {
+
+}
