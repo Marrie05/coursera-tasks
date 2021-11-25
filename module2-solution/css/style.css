@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+section {
+    margin-bottom: 13px;
+    margin-left: 13px;
+    border: solid 1px black;
+    background-color: lightyellow;
+}
+
+#roses:hover {
+    background-color: lightcoral;
+}
+#sunflower:hover {
+    background-color: yellow;
+}
+#daisies:hover {
+    background-color: whitesmoke;
+}
+
+h3 {
+    float: right;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+p {
+    clear: right;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+}
+
+
+@media (min-width:992px) {
+.col-lg-4, .col-md-6  {
+    float: left;
+    }
+.col-lg-4 {
+    width: 32%;
+}
+}
+
+@media (max-width:991px) and (min-width:768px) {
+.col-lg-4, .col-md-6 {
+    float: left;
+    }
+.col-md-6 {
+    width:48%
+}
+}
